@@ -1,0 +1,369 @@
+(* Content-type: application/mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 7.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       145,          7]
+NotebookDataLength[     10353,        360]
+NotebookOptionsPosition[      9225,        324]
+NotebookOutlinePosition[      9571,        339]
+CellTagsIndexPosition[      9528,        336]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{"R", "=", 
+  FractionBox[
+   SubscriptBox["\[Beta]", 
+    RowBox[{"a", ",", "a", ",", "c"}]], 
+   SubscriptBox["\[Beta]", 
+    RowBox[{"c", ",", "c", ",", "c"}]]]}]], "Input",
+ CellChangeTimes->{{3.503761945890625*^9, 3.503761956125*^9}, 
+   3.503761993203125*^9}],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.503762053203125*^9, 3.50376205453125*^9}}],
+
+Cell[BoxData[
+ StyleBox["\"\<C3V\>\"",
+  FontSize->18,
+  Background->RGBColor[1, 0.85, 0.85]]], "Input",
+ CellChangeTimes->{{3.5030625313125*^9, 3.50306258609375*^9}, {
+  3.503062644296875*^9, 3.503062714265625*^9}, {3.50306275603125*^9, 
+  3.5030627950625*^9}, {3.503079359109375*^9, 3.50307937046875*^9}, {
+  3.503761953328125*^9, 3.503761970421875*^9}},
+ FontSize->18],
+
+Cell[BoxData[
+ StyleBox["\"\<SSP\>\"",
+  FontSize->18,
+  Background->RGBColor[1, 0.85, 0.85]]], "Input",
+ CellChangeTimes->{{3.503762042484375*^9, 3.50376204284375*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  SubsuperscriptBox["\[Chi]", 
+   RowBox[{"y", ",", "y", ",", "z"}], 
+   RowBox[{
+    RowBox[{"(", "2", ")"}], "ss"}]], "=", 
+  RowBox[{
+   FractionBox["1", "2"], 
+   SubscriptBox["\[CapitalNu]", "s"], " ", 
+   SubscriptBox["\[Beta]", 
+    RowBox[{"c", ",", "c", ",", "c"}]], 
+   RowBox[{"(", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{"1", "+", "R"}], ")"}], 
+      RowBox[{"Cos", "[", "\[Theta]", "]"}]}], "-", 
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{"1", "-", "R"}], ")"}], 
+      SuperscriptBox[
+       RowBox[{"Cos", "[", "\[Theta]", "]"}], "3"]}]}], ")"}]}]}]], "Input"],
+
+Cell[BoxData[
+ RowBox[{
+  SubsuperscriptBox["\[Chi]", 
+   RowBox[{"y", ",", "y", ",", "z"}], 
+   RowBox[{
+    RowBox[{"(", "2", ")"}], "as"}]], "=", 
+  RowBox[{
+   RowBox[{"-", 
+    SubscriptBox["\[CapitalNu]", "s"]}], 
+   SubscriptBox["\[Beta]", 
+    RowBox[{"a", ",", "c", ",", "a"}]], 
+   RowBox[{"(", 
+    RowBox[{
+     RowBox[{"Cos", "[", "\[Theta]", "]"}], "-", " ", 
+     SuperscriptBox[
+      RowBox[{"Cos", "[", "\[Theta]", "]"}], "3"]}], ")"}]}]}]], "Input"],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.50376204728125*^9, 3.5037620475625*^9}}],
+
+Cell[BoxData[
+ StyleBox["\"\<SPS\>\"",
+  FontSize->18,
+  Background->RGBColor[1, 0.85, 0.85]]], "Input",
+ CellChangeTimes->{{3.503762042484375*^9, 3.503762061625*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  SubsuperscriptBox["\[Chi]", 
+   RowBox[{"y", ",", "z", ",", "y"}], 
+   RowBox[{
+    RowBox[{"(", "2", ")"}], "ss"}]], "=", 
+  RowBox[{
+   FractionBox["1", "2"], 
+   SubscriptBox["\[CapitalNu]", "s"], " ", 
+   SubscriptBox["\[Beta]", 
+    RowBox[{"c", ",", "c", ",", "c"}]], 
+   RowBox[{"(", 
+    RowBox[{"1", "-", "R"}], ")"}], 
+   RowBox[{"(", 
+    RowBox[{
+     RowBox[{"Cos", "[", "\[Theta]", "]"}], "-", 
+     SuperscriptBox[
+      RowBox[{"Cos", "[", "\[Theta]", "]"}], "3"]}], ")"}]}]}]], "Input",
+ CellChangeTimes->{3.503930837671875*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  SubsuperscriptBox["\[Chi]", 
+   RowBox[{"y", ",", "z", ",", "y"}], 
+   RowBox[{
+    RowBox[{"(", "2", ")"}], "as"}]], "=", 
+  RowBox[{
+   SubscriptBox["\[CapitalNu]", "s"], " ", 
+   SubscriptBox["\[Beta]", 
+    RowBox[{"a", ",", "c", ",", "a"}]], 
+   SuperscriptBox[
+    RowBox[{"Cos", "[", "\[Theta]", "]"}], "3"]}]}]], "Input",
+ CellChangeTimes->{3.50393085159375*^9}],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.50376204728125*^9, 3.5037620475625*^9}}],
+
+Cell[BoxData[
+ StyleBox["\"\<PSS\>\"",
+  FontSize->18,
+  Background->RGBColor[1, 0.85, 0.85]]], "Input",
+ CellChangeTimes->{{3.503762042484375*^9, 3.503762061625*^9}, {
+  3.503930743609375*^9, 3.503930745625*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  SubsuperscriptBox["\[Chi]", 
+   RowBox[{"z", ",", "y", ",", "y"}], 
+   RowBox[{
+    RowBox[{"(", "2", ")"}], "ss"}]], "=", 
+  RowBox[{
+   FractionBox["1", "2"], 
+   SubscriptBox["\[CapitalNu]", "s"], " ", 
+   SubscriptBox["\[Beta]", 
+    RowBox[{"c", ",", "c", ",", "c"}]], 
+   RowBox[{"(", 
+    RowBox[{"1", "-", "R"}], ")"}], 
+   RowBox[{"(", 
+    RowBox[{
+     RowBox[{"Cos", "[", "\[Theta]", "]"}], "-", 
+     SuperscriptBox[
+      RowBox[{"Cos", "[", "\[Theta]", "]"}], "3"]}], ")"}]}]}]], "Input"],
+
+Cell[BoxData[
+ RowBox[{
+  SubsuperscriptBox["\[Chi]", 
+   RowBox[{"z", ",", "y", ",", "y"}], 
+   RowBox[{
+    RowBox[{"(", "2", ")"}], "as"}]], "=", 
+  RowBox[{
+   SubscriptBox["\[CapitalNu]", "s"], " ", 
+   SubscriptBox["\[Beta]", 
+    RowBox[{"a", ",", "c", ",", "a"}]], 
+   SuperscriptBox[
+    RowBox[{"Cos", "[", "\[Theta]", "]"}], "3"]}]}]], "Input"],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.50376208190625*^9, 3.503762082296875*^9}}],
+
+Cell[BoxData[
+ StyleBox["\"\<PPP\>\"",
+  FontSize->18,
+  Background->RGBColor[1, 0.85, 0.85]]], "Input",
+ CellChangeTimes->{{3.503762042484375*^9, 3.503762061625*^9}, {
+  3.5037621088125*^9, 3.503762137390625*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  SubsuperscriptBox["\[Chi]", 
+   RowBox[{"x", ",", "x", ",", "z"}], 
+   RowBox[{
+    RowBox[{"(", "2", ")"}], "ss"}]], "=", 
+  RowBox[{
+   FractionBox["1", "2"], 
+   SubscriptBox["\[CapitalNu]", "s"], " ", 
+   SubscriptBox["\[Beta]", 
+    RowBox[{"c", ",", "c", ",", "c"}]], 
+   RowBox[{"(", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{"1", "+", "R"}], ")"}], 
+      RowBox[{"Cos", "[", "\[Theta]", "]"}]}], "-", 
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{"1", "-", "R"}], ")"}], 
+      SuperscriptBox[
+       RowBox[{"Cos", "[", "\[Theta]", "]"}], "3"]}]}], ")"}]}]}]], "Input"],
+
+Cell[BoxData[
+ RowBox[{
+  SubsuperscriptBox["\[Chi]", 
+   RowBox[{"x", ",", "x", ",", "z"}], 
+   RowBox[{
+    RowBox[{"(", "2", ")"}], "as"}]], "=", 
+  RowBox[{
+   RowBox[{"-", 
+    SubscriptBox["\[CapitalNu]", "s"]}], " ", 
+   SubscriptBox["\[Beta]", 
+    RowBox[{"a", ",", "c", ",", "a"}]], 
+   RowBox[{"(", 
+    RowBox[{
+     RowBox[{"Cos", "[", "\[Theta]", "]"}], "-", 
+     SuperscriptBox[
+      RowBox[{"Cos", "[", "\[Theta]", "]"}], "3"]}], ")"}]}]}]], "Input"],
+
+Cell[BoxData[
+ RowBox[{
+  SubsuperscriptBox["\[Chi]", 
+   RowBox[{"x", ",", "z", ",", "x"}], 
+   RowBox[{
+    RowBox[{"(", "2", ")"}], "ss"}]], "=", 
+  RowBox[{
+   FractionBox["1", "2"], 
+   SubscriptBox["\[CapitalNu]", "s"], " ", 
+   SubscriptBox["\[Beta]", 
+    RowBox[{"c", ",", "c", ",", "c"}]], 
+   RowBox[{"(", 
+    RowBox[{"1", "-", "R"}], ")"}], 
+   RowBox[{"(", 
+    RowBox[{
+     RowBox[{"Cos", "[", "\[Theta]", "]"}], "-", 
+     SuperscriptBox[
+      RowBox[{"Cos", "[", "\[Theta]", "]"}], "3"]}], ")"}]}]}]], "Input"],
+
+Cell[BoxData[
+ RowBox[{
+  SubsuperscriptBox["\[Chi]", 
+   RowBox[{"x", ",", "z", ",", "x"}], 
+   RowBox[{
+    RowBox[{"(", "2", ")"}], "as"}]], "=", 
+  RowBox[{
+   SubscriptBox["\[CapitalNu]", "s"], " ", 
+   SubscriptBox["\[Beta]", 
+    RowBox[{"a", ",", "c", ",", "a"}]], 
+   SuperscriptBox[
+    RowBox[{"Cos", "[", "\[Theta]", "]"}], "3"]}]}]], "Input"],
+
+Cell[BoxData[
+ RowBox[{
+  SubsuperscriptBox["\[Chi]", 
+   RowBox[{"z", ",", "x", ",", "x"}], 
+   RowBox[{
+    RowBox[{"(", "2", ")"}], "ss"}]], "=", 
+  RowBox[{
+   FractionBox["1", "2"], 
+   SubscriptBox["\[CapitalNu]", "s"], " ", 
+   SubscriptBox["\[Beta]", 
+    RowBox[{"c", ",", "c", ",", "c"}]], 
+   RowBox[{"(", 
+    RowBox[{"1", "-", "R"}], ")"}], 
+   RowBox[{"(", 
+    RowBox[{
+     RowBox[{"Cos", "[", "\[Theta]", "]"}], "-", 
+     SuperscriptBox[
+      RowBox[{"Cos", "[", "\[Theta]", "]"}], "3"]}], ")"}]}]}]], "Input"],
+
+Cell[BoxData[
+ RowBox[{
+  SubsuperscriptBox["\[Chi]", 
+   RowBox[{"z", ",", "x", ",", "x"}], 
+   RowBox[{
+    RowBox[{"(", "2", ")"}], "as"}]], "=", 
+  RowBox[{
+   SubscriptBox["\[CapitalNu]", "s"], " ", 
+   SubscriptBox["\[Beta]", 
+    RowBox[{"a", ",", "c", ",", "a"}]], 
+   SuperscriptBox[
+    RowBox[{"Cos", "[", "\[Theta]", "]"}], "3"]}]}]], "Input"],
+
+Cell[BoxData[
+ RowBox[{
+  SubsuperscriptBox["\[Chi]", 
+   RowBox[{"z", ",", "z", ",", "z"}], 
+   RowBox[{
+    RowBox[{"(", "2", ")"}], "ss"}]], "=", 
+  RowBox[{
+   SubscriptBox["\[CapitalNu]", "s"], " ", 
+   SubscriptBox["\[Beta]", 
+    RowBox[{"c", ",", "c", ",", "c"}]], 
+   RowBox[{"(", 
+    RowBox[{
+     RowBox[{"R", " ", 
+      RowBox[{"Cos", "[", "\[Theta]", "]"}]}], "+", 
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{"1", "-", "R"}], ")"}], 
+      SuperscriptBox[
+       RowBox[{"Cos", "[", "\[Theta]", "]"}], "3"]}]}], ")"}]}]}]], "Input"],
+
+Cell[BoxData[
+ RowBox[{
+  SubsuperscriptBox["\[Chi]", 
+   RowBox[{"z", ",", "z", ",", "z"}], 
+   RowBox[{
+    RowBox[{"(", "2", ")"}], "as"}]], "=", 
+  RowBox[{"2", 
+   SubscriptBox["\[CapitalNu]", "s"], " ", 
+   SubscriptBox["\[Beta]", 
+    RowBox[{"a", ",", "c", ",", "a"}]], 
+   RowBox[{"(", 
+    RowBox[{
+     RowBox[{"Cos", "[", "\[Theta]", "]"}], "-", " ", 
+     SuperscriptBox[
+      RowBox[{"Cos", "[", "\[Theta]", "]"}], "3"]}], ")"}]}]}]], "Input"]
+},
+WindowSize->{616, 750},
+WindowMargins->{{Automatic, 322}, {58, Automatic}},
+FrontEndVersion->"7.0 for Microsoft Windows (32-bit) (November 10, 2008)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[545, 20, 287, 8, 51, "Input"],
+Cell[835, 30, 91, 1, 31, "Input"],
+Cell[929, 33, 371, 8, 36, "Input"],
+Cell[1303, 43, 169, 4, 36, "Input"],
+Cell[1475, 49, 630, 21, 47, "Input"],
+Cell[2108, 72, 468, 15, 33, "Input"],
+Cell[2579, 89, 89, 1, 31, "Input"],
+Cell[2671, 92, 167, 4, 36, "Input"],
+Cell[2841, 98, 571, 18, 47, "Input"],
+Cell[3415, 118, 396, 12, 33, "Input"],
+Cell[3814, 132, 89, 1, 31, "Input"],
+Cell[3906, 135, 213, 5, 36, "Input"],
+Cell[4122, 142, 529, 17, 47, "Input"],
+Cell[4654, 161, 355, 11, 33, "Input"],
+Cell[5012, 174, 91, 1, 31, "Input"],
+Cell[5106, 177, 214, 5, 36, "Input"],
+Cell[5323, 184, 630, 21, 47, "Input"],
+Cell[5956, 207, 468, 15, 33, "Input"],
+Cell[6427, 224, 529, 17, 47, "Input"],
+Cell[6959, 243, 355, 11, 33, "Input"],
+Cell[7317, 256, 529, 17, 47, "Input"],
+Cell[7849, 275, 355, 11, 33, "Input"],
+Cell[8207, 288, 553, 18, 33, "Input"],
+Cell[8763, 308, 458, 14, 33, "Input"]
+}
+]
+*)
+
+(* End of internal cache information *)
