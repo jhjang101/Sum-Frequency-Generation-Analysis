@@ -11,6 +11,6 @@ where $\varrho$ is phase of $\chi^{(2)}\_{NR}$.
 
 In this repo, Mathematica code for simulating SFG spectra and Data fitting. 
 
-![SFG spectra simulation and curve fitting](https://github.com/jhjang101/SFG-Data-Fitting/blob/main/SFG%20curve%20fitting.png)
+![SFG spectra simulation and curve fitting](https://github.com/jhjang101/Sum-Frequency-Generation-Analysis/blob/main/SFG-Data-Fitting/SFG%20curve%20fitting.png)
 
 The curve fit result shows the SFG data has 6 Lorentzian distribution and each of them is corresponding the molecular vibration in SFG field. Using this data, molecular density, orientation, and distributions are determined. The example contains real data I measured during PhD and the journal publication can be seen [here](https://pubs.acs.org/doi/abs/10.1021/jp404669j).
